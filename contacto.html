@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBolivia Store | Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>TechBolivia</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="carrito.html" class="btn-carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-contacto">
+        <h1>Contactanos</h1>
+        <div class="grid-contacto">
+            <section class="formulario-box">
+                <form id="form-contacto" novalidate>
+                    <div class="form-grupo">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="correo">Correo electronico:</label>
+                        <input type="email" id="correo" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="celular">Numero de celular:</label>
+                        <input type="tel" id="celular" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primario">Enviar Mensaje</button>
+                </form>
+                <div id="mensaje-estado" class="mensaje-estado oculto"></div>
+            </section>
+
+            <section class="info-contacto">
+                <h2>Informacion de Contacto</h2>
+                <p><strong>Direccion:</strong> Av. 6 de Octubre y Bolivar, Oruro, Bolivia</p>
+                <p><strong>Telefono:</strong> +591 61839389</p>
+                <p><strong>Correo:</strong> ventas@techbolivia.bo</p>
+                <p><strong>Horario:</strong> Lunes a Sabado de 09:00 a 18:00</p>
+                <h3>Redes Sociales</h3>
+                <div class="redes-sociales">
+                    <a href="#">Facebook</a> |
+                    <a href="#">Instagram</a> |
+                    <a href="#">WhatsApp</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>@ 2026 TechBolivia Store - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/contacto.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

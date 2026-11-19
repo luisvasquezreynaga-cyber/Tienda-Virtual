@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "nombre": "Laptop Lenovo IdeaPad 3",
+    "descripcion": "Procesador Ryzen 5, 16GB RAM, 512GB SSD, pantalla 15.6 Full HD.",
+    "precio": 4850,
+    "categoria": "Laptops",
+    "stock": 8,
+    "imagen": "img/laptop 1.jpg",
+    "destacado": true
+  },
+  {
+    "id": 2,
+    "nombre": "Laptop HP Pavilion Gaming",
+    "descripcion": "Intel Core i5, 16GB RAM, GTX 1650, teclado retroiluminado.",
+    "precio": 6200,
+    "categoria": "Laptops",
+    "stock": 3,
+    "imagen": "img/laptop hp.jpg",
+    "destacado": true
+  },
+  {
+    "id": 3,
+    "nombre": "MacBook Air M1",
+    "descripcion": "Chip Apple M1, 8GB RAM, 256GB SSD, pantalla Retina 13 pulgadas.",
+    "precio": 7500,
+    "categoria": "Laptops",
+    "stock": 0,
+    "imagen": "img/Macbook.jpg",
+    "destacado": false
+  },
+  {
+    "id": 4,
+    "nombre": "Laptop Asus VivoBook 15",
+    "descripcion": "Intel Core i7, 16GB RAM, 1TB SSD, diseno ultradelgado.",
+    "precio": 5400,
+    "categoria": "Laptops",
+    "stock": 6,
+    "imagen": "img/asus.jpg",
+    "destacado": false
+  },
+  {
+    "id": 5,
+    "nombre": "Audifonos Sony WH-1000XM4",
+    "descripcion": "Cancelacion activa de ruido, Bluetooth, 30 horas de bateria.",
+    "precio": 1850,
+    "categoria": "Audio",
+    "stock": 12,
+    "imagen": "img/audifonossony.jpg",
+    "destacado": true
+  },
+  {
+    "id": 6,
+    "nombre": "Parlante JBL Flip 6",
+    "descripcion": "Resistente al agua IP67, sonido potente, bateria de 12 horas.",
+    "precio": 890,
+    "categoria": "Audio",
+    "stock": 15,
+    "imagen": "img/parlatejbl6.jpg",
+    "destacado": false
+  },
+  {
+    "id": 7,
+    "nombre": "Microfono HyperX SoloCast",
+    "descripcion": "Microfono condensador USB para streaming y grabacion.",
+    "precio": 450,
+    "categoria": "Audio",
+    "stock": 4,
+    "imagen": "img/microfonohiperx.jpg",
+    "destacado": false
+  },
+  {
+    "id": 8,
+    "nombre": "Audifonos Gamer Logitech G435",
+    "descripcion": "Inalambricos ultraligeros, Bluetooth y Lightspeed.",
+    "precio": 580,
+    "categoria": "Audio",
+    "stock": 0,
+    "imagen": "img/audifonoslogitech.jpg",
+    "destacado": false
+  },
+  {
+    "id": 9,
+    "nombre": "Mouse Logitech G502 Hero",
+    "descripcion": "Sensor optico 25K DPI, 11 botones programables, pesas ajustables.",
+    "precio": 380,
+    "categoria": "Perifericos",
+    "stock": 20,
+    "imagen": "img/Mouse Logitech G502 Hero.jpg",
+    "destacado": true
+  },
+  {
+    "id": 10,
+    "nombre": "Teclado Mecanico Redragon Kumara",
+    "descripcion": "Switches Outemu Blue, retroiluminacion RGB, formato TKL.",
+    "precio": 340,
+    "categoria": "Perifericos",
+    "stock": 14,
+    "imagen": "img/Teclado Mecanico Redragon Kumara.jpg",
+    "destacado": false
+  },
+  {
+    "id": 11,
+    "nombre": "Monitor Samsung 24 pulgadas",
+    "descripcion": "Panel IPS Full HD 75Hz, bordes ultradelgados, FreeSync.",
+    "precio": 1150,
+    "categoria": "Perifericos",
+    "stock": 2,
+    "imagen": "img/Monitor Samsung 24 pulgadas.jpg",
+    "destacado": false
+  },
+  {
+    "id": 12,
+    "nombre": "Webcam Logitech C920 HD Pro",
+    "descripcion": "Resolucion Full HD 1080p, enfoque automatico, doble microfono.",
+    "precio": 620,
+    "categoria": "Perifericos",
+    "stock": 9,
+    "imagen": "img/Webcam Logitech C920 HD Pro.jpg",
+    "destacado": false
+  },
+  {
+    "id": 13,
+    "nombre": "Mochila Antirrobo para Laptop",
+    "descripcion": "Impermeable, puerto de carga USB externo, hasta 15.6 pulgadas.",
+    "precio": 220,
+    "categoria": "Accesorios",
+    "stock": 25,
+    "imagen": "img/Mochila Antirrobo para Laptop.jpg",
+    "destacado": false
+  },
+  {
+    "id": 14,
+    "nombre": "Hub USB-C 7 en 1",
+    "descripcion": "Adaptador con HDMI 4K, 3 puertos USB 3.0, lector SD y carga PD.",
+    "precio": 260,
+    "categoria": "Accesorios",
+    "stock": 3,
+    "imagen": "img/Hub USB-C 7 en 1.jpg",
+    "destacado": false
+  },
+  {
+    "id": 15,
+    "nombre": "Base Refrigerante para Laptop",
+    "descripcion": "5 ventiladores silenciosos con luz LED azul y altura regulable.",
+    "precio": 180,
+    "categoria": "Accesorios",
+    "stock": 18,
+    "imagen": "img/Base Refrigerante para Laptop.jpg",
+    "destacado": false
+  }
+]

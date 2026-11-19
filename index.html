@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBolivia Store | Inicio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.png" alt="Logo TechBolivia" onerror="this.style.display='none'">
+                <span>TechBolivia</span>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="carrito.html" class="btn-carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container banner-content">
+            <h1>Bienvenido a TechBolivia Store</h1>
+            <p>La mejor tecnologia, accesorios y equipos al mejor precio en bolivianos (Bs) con envios a todo el pais.</p>
+            <a href="productos.html" class="btn-primario">Explorar Catalogo</a>
+        </div>
+    </section>
+
+    <section class="seccion-categorias container">
+        <h2>Nuestras Categorias</h2>
+        <div class="grid-categorias" id="contenedor-categorias">
+            <a href="productos.html?categoria=Laptops" class="card-categoria">Laptops</a>
+            <a href="productos.html?categoria=Audio" class="card-categoria">Audio</a>
+            <a href="productos.html?categoria=Perifericos" class="card-categoria">Perifericos</a>
+            <a href="productos.html?categoria=Accesorios" class="card-categoria">Accesorios</a>
+        </div>
+    </section>
+
+    <section class="seccion-destacados container">
+        <h2>Productos Destacados</h2>
+        <div class="grid-productos" id="productos-destacados"></div>
+        <div class="centro-boton">
+            <a href="productos.html" class="btn-secundario">Ver todos los productos</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p> @2026 TechBolivia Store - Oruro, Bolivia. Todos los derechos reservados.</p>
+            <div class="footer-links">
+                <a href="nosotros.html">Nosotros</a> |
+                <a href="contacto.html">Contacto</a> |
+                <a href="faq.html">Preguntas Frecuentes</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBolivia Store | Dashboard</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>TechBolivia</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="carrito.html" class="btn-carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-dashboard">
+        <div class="dashboard-header">
+            <h1>Panel de Control (Dashboard)</h1>
+            <p id="fecha-actualizacion">Ultima actualizacion: </p>
+        </div>
+
+        <section class="grid-kpis">
+            <div class="kpi-card">
+                <h3>Total Productos</h3>
+                <p class="kpi-valor" id="kpi-total">0</p>
+            </div>
+            <div class="kpi-card">
+                <h3>Categorias</h3>
+                <p class="kpi-valor" id="kpi-categorias">0</p>
+            </div>
+            <div class="kpi-card">
+                <h3>Valor Inventario</h3>
+                <p class="kpi-valor" id="kpi-valor">0 Bs</p>
+            </div>
+            <div class="kpi-card">
+                <h3>Con Stock</h3>
+                <p class="kpi-valor" id="kpi-disponibles">0</p>
+            </div>
+            <div class="kpi-card">
+                <h3>Agotados</h3>
+                <p class="kpi-valor" id="kpi-agotados">0</p>
+            </div>
+            <div class="kpi-card">
+                <h3>Bajo Stock (&lt; 5)</h3>
+                <p class="kpi-valor" id="kpi-bajo-stock">0</p>
+            </div>
+        </section>
+
+        <section class="grid-graficos">
+            <div class="grafico-box">
+                <h3>Productos por Categoria</h3>
+                <canvas id="grafico-categorias"></canvas>
+            </div>
+            <div class="grafico-box">
+                <h3>Distribucion de Stock</h3>
+                <canvas id="grafico-stock"></canvas>
+            </div>
+        </section>
+
+        <section class="tabla-box">
+            <h3>Productos con Bajo Inventario (Menos de 5 unidades)</h3>
+            <table class="tabla-inventario">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Categoria</th>
+                        <th>Precio (Bs)</th>
+                        <th>Stock Actual</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-bajo-stock"></tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>@2026 TechBolivia Store - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>

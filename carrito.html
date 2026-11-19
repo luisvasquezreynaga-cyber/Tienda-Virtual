@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBolivia Store | Carrito de Compras</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>TechBolivia</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="carrito.html" class="btn-carrito active">Carrito (<span id="contador-carrito">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-carrito">
+        <h1>Tu Carrito de Compras</h1>
+        <div id="contenedor-carrito"></div>
+        <div class="resumen-carrito">
+            <h3>Total a Pagar: <span id="total-carrito">0.00</span> Bs</h3>
+            <div class="acciones-carrito">
+                <button id="vaciar-carrito" class="btn-secundario">Vaciar Carrito</button>
+                <button id="finalizar-compra" class="btn-primario">Finalizar Compra</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>@ 2026 TechBolivia Store - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>

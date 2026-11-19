@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBolivia Store | Productos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><span>TechBolivia</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html" class="active">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="carrito.html" class="btn-carrito">Carrito (<span id="contador-carrito">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-productos">
+        <h1>Catalogo de Productos</h1>
+        
+        <section class="controles-filtro">
+            <input type="text" id="buscador" placeholder="Buscar producto por nombre...">
+            
+            <select id="filtro-categoria">
+                <option value="todas">Todas las categorias</option>
+                <option value="Laptops">Laptops</option>
+                <option value="Audio">Audio</option>
+                <option value="Perifericos">Perifericos</option>
+                <option value="Accesorios">Accesorios</option>
+            </select>
+
+            <select id="filtro-stock">
+                <option value="todos">Todos los estados</option>
+                <option value="disponible">Solo disponibles</option>
+                <option value="agotado">Agotados</option>
+            </select>
+
+            <select id="orden-precio">
+                <option value="defecto">Ordenar por...</option>
+                <option value="menor-mayor">Precio: Menor a Mayor</option>
+                <option value="mayor-menor">Precio: Mayor a Menor</option>
+            </select>
+        </section>
+
+        <section class="grid-productos" id="lista-productos"></section>
+    </main>
+
+    <div id="modal-detalle" class="modal oculto">
+        <div class="modal-contenido">
+            <span id="cerrar-modal" class="cerrar"></span>
+            <div id="contenido-modal"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>@2026 TechBolivia Store - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
